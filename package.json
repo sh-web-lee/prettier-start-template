@@ -1,0 +1,32 @@
+{
+  "name": "prettier-start-template",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sh-web-lee/prettier-start-template.git"
+  },
+  "author": "",
+  "lint-staged": {
+    "*.{ts,tsx,json,md}": [
+      "prettier --write"
+    ]
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sh-web-lee/prettier-start-template/issues"
+  },
+  "homepage": "https://github.com/sh-web-lee/prettier-start-template#readme",
+  "devDependencies": {
+    "eslint": "^10.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.4.0",
+    "prettier": "^3.8.3",
+    "typescript": "^6.0.3"
+  }
+}
