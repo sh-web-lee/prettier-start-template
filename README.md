@@ -16,23 +16,8 @@
 
 ✅ 零冗余，按需安装依赖
 
-## 📦 安装
-
-在你的项目根目录执行：
-
+## 📦 克隆至本地
 ```
-# 安装核心依赖
-npm install -D eslint prettier
-
-# 安装 ESLint 插件和解析器
-npm install -D @eslint/js globals
-
-# 如果你使用 TypeScript
-npm install -D typescript-eslint
-
-# 如果你使用 Vue
-npm install -D eslint-plugin-vue
-
-# 如果你使用 React
-npm install -D eslint-plugin-react eslint-plugin-react-hooks
+git clone git@github.com:sh-web-lee/prettier-start-template.git
 ```
+
