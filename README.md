@@ -32,11 +32,12 @@ pnpm install
 直接编写代码，提交时将自动触发Prettier格式化，无需额外操作。
 ---
 ## 📌 功能详情
-|功能|说明|使用方式
-|开箱即用|无需手动配置Prettier，克隆即开发|克隆项目后直接编写代码
-|自动格式化|提交代码前自动执行Prettier，美化代码格式|执行git commit，自动触发格式化
-|风格统一|团队共享统一Prettier配置，协同开发无格式冲突|所有成员克隆项目后，自动使用统一配置
-|配置可扩展|支持自定义Prettier规则，适配项目特殊需求|修改项目根目录.prettierrc文件即可
+|功能|说明|使用方式|
+|---|---|---|
+|开箱即用|无需手动配置Prettier，克隆即开发|克隆项目后直接编写代码|
+|自动格式化|提交代码前自动执行Prettier，美化代码格式|执行git commit，自动触发格式化|
+|风格统一|团队共享统一Prettier配置，协同开发无格式冲突|所有成员克隆项目后，自动使用统一配置|
+|配置可扩展|支持自定义Prettier规则，适配项目特殊需求|修改项目根目录.prettierrc文件即可|
 ---
 ## ⚙️ 自定义配置（可选）
 若项目需要自定义Prettier格式规则，可修改项目根目录下的 .prettierrc 文件，示例配置如下：
@@ -52,7 +53,7 @@ pnpm install
   "arrowParens": "always"   // 箭头函数参数必须加括号
 }
 ```
-更多Prettier配置项，可参考 Prettier官方文档。
+更多Prettier配置项，可参考 [Prettier官方文档](https://prettier.io/)。
 ---
 ## 🤝 团队协作说明
 1. 所有团队成员克隆项目后，无需额外配置，自动使用统一的Prettier规则。
@@ -69,7 +70,7 @@ A：修改.prettierrc文件后，重启VS Code，或执行 npx prettier --write 
 ---
 ## 📞 联系与反馈
 若使用过程中遇到问题，或有功能优化建议，可通过以下方式反馈：
-- [[项目仓库Issues](https://github.com/sh-web-lee/prettier-start-template/issues)]
+- [项目仓库Issues](https://github.com/sh-web-lee/prettier-start-template/issues)
 - [shwenlee@gmail.com]
 ---
 ### 温馨提示
